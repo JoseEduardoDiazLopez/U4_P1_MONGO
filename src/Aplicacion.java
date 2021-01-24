@@ -21,6 +21,7 @@ import org.bson.types.ObjectId;
  *
  * @author Admin
  */
+//U4_P1_MONGO
 public class Aplicacion extends javax.swing.JFrame {
 
     MongoDatabase baseDatos;
