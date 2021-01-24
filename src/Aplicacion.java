@@ -22,14 +22,12 @@ import org.bson.types.ObjectId;
  * @author Admin
  */
 public class Aplicacion extends javax.swing.JFrame {
-    //"mongodb+srv://Admin:sergioguz9@cluster0.7drou.mongodb.net/ejemplo1?retryWrites=true&w=majority"
+
     MongoDatabase baseDatos;
     MongoCollection<Document> coleccion;
     DefaultTableModel m = new DefaultTableModel();
     String idGlobal="";
-    /**
-     * Creates new form Aplicacion
-     */
+    
     public Aplicacion() {
         initComponents();
         //"mongodb+srv://EduardoAdmin:<password>@cluster0.hltkq.mongodb.net/<dbname>?retryWrites=true&w=majority")
